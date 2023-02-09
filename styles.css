@@ -1,0 +1,36 @@
+.wrapper {
+  text-align: center;
+  margin: 3.3% auto;
+  width: 30%;
+  padding: 5%;
+  background-image: url("weather.png");
+  color : white;
+  border-radius: 3%;
+
+}
+
+body{
+background: linear-gradient(to right bottom, #ea2c62, #120078);
+
+
+}
+h1 {
+  margin-bottom: 7%;
+}
+
+input {
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+hr {
+
+  background-color: white;
+}
