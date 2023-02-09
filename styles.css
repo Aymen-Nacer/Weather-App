@@ -1,36 +1,54 @@
-.wrapper {
-  text-align: center;
-  margin: 3.3% auto;
-  width: 30%;
-  padding: 5%;
-  background-image: url("weather.png");
-  color : white;
-  border-radius: 3%;
 
-}
+
 
 body{
-background: linear-gradient(to right bottom, #ea2c62, #120078);
-
-
+  background: linear-gradient(to right bottom, #ea2c62, #120078);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+.top {
+  margin: 50px auto;
+  padding: 5%;
+  text-align: center;
+  background-image: url(weather.png);
+  color: white;
+  border-radius: 3%;
+  width: auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+
 h1 {
-  margin-bottom: 7%;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+
+h3 {
+  font-size: 2rem;
 }
 
 input {
-  margin-bottom: 5%;
-  width: 100%;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 20%;
   padding: 2%;
   text-align: center;
 }
 
 button {
-  width: 100%;
-  margin-bottom: 5%;
+  width: 80%;
+  padding: 2%;
+  height: 20%;
+  margin-bottom: 20px;
 }
 
 hr {
-
   background-color: white;
 }
