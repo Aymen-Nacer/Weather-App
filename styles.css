@@ -1,4 +1,4 @@
-
+/* elements selectors */
 
 
 body{
@@ -10,6 +10,43 @@ body{
   justify-content: center;
 }
 
+h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem
+}
+input {
+  margin-bottom: 20px;
+  width: 80%;
+  height: 52px;
+  padding: 2%;
+  text-align: center;
+}
+
+button {
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 20px;
+}
+
+hr {
+  background-color: white;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+p {
+  margin : 4px;
+  padding : 3px;
+  font-size: 1.5rem;
+}
+
+
+/* classes selectors */
 
 .top {
   margin: 50px auto;
@@ -24,31 +61,38 @@ body{
 }
 
 
-h1 {
-  margin-bottom: 20px;
-  font-size: 3rem;
+.info{
+  text-align: left;
 }
 
-
-h3 {
-  font-size: 2rem;
+.vis{
+  visibility: hidden;
 }
+/* media query */
 
-input {
-  margin-bottom: 20px;
-  width: 80%;
-  height: 20%;
-  padding: 2%;
-  text-align: center;
-}
 
-button {
-  width: 80%;
-  padding: 2%;
-  height: 20%;
-  margin-bottom: 20px;
-}
+@media screen and (max-width: 1000px){
+ .top{
+   width: 90%;
+   height: 80%;
+ }
+ h1 {
+   font-size: 4rem;
+ }
 
-hr {
-  background-color: white;
+ h2 {
+   font-size: 3rem;
+ }
+
+ h3 {
+   font-size: 2rem;
+ }
+
+ p {
+   font-size: 2.5rem;
+ }
+
+
+
+
 }
