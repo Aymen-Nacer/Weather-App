@@ -18,20 +18,22 @@
   <body>
     <div class="top">
       <h1>Weather App</h1>
-      <form class="" action="index.html" method="post">
-        <input type="text" name="search-by-city" value="" placeholder="Search by city name">
+      <form action="" method="post" onsubmit="return false">
+        <input type="text" class = "search" name="search-by-city" value="" placeholder="Search by city name">
         <br>
-        <button type="submit" name="button" class="btn btn-warning btn-lg">SUBMIT</button>
+        <button type="submit" name="button" class="btn btn-warning btn-lg button-submit">SUBMIT</button>
       </form>
-      <h3 class="vis">invalid city name</h3>
-      <h2>Lagos, NG</h2>
-      <p>Thursday, 26 Nov 2020</p>
+      <h3 class="error"></h3>
+      <h2 class = "city">Lagos, NG</h2>
+      <p class = "date">Thursday, 26 Nov 2020</p>
       <hr>
       <div class="info">
-        <p>Temp: 26 &#8451;</p>
-        <p>Weather: Clouds</p>
-        <p>Temp Range: 26&#8451;/ 26&#8451;</p>
+        <p class= "temp">Temp: 26 &#8451;</p>
+        <p class = "weather">Weather: Clouds</p>
+        <p class = "temp-range">Temp Range: 26&#8451;/ 26&#8451;</p>
       </div>
     </div>
+  <script type="text/javascript" src="index.js">
+  </script>
   </body>
 </html>

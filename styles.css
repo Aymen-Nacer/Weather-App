@@ -56,8 +56,12 @@ p {
   color: white;
   border-radius: 3%;
   width: auto;
-  max-width: 900px;
+  max-width: 600px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
